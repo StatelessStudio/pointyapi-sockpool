@@ -1,0 +1,24 @@
+{
+	"name": "pointyapi-sockpool",
+	"version": "1.0.0",
+	"description": "Websocket pool for PointyAPI",
+	"main": "index.js",
+	"scripts": {
+		"test": "npm run build && jasmine --config=test/jasmine",
+		"build": "tsc --p tsconfig.json",
+		"build:spec": "tsc --p tsconfig.json && tsc --p tsconfig.spec.json",
+		"postinstall": "tsc --p tsconfig.dist.json",
+		"doc": "typedoc --out docs src --excludeNotExported"
+	},
+	"directories": {
+		"lib": "lib",
+		"test": "test"
+	},
+	"dependencies": {
+		"@types/node": "^10.14.8"
+	},
+	"devDependencies": {},
+	"keywords": [],
+	"author": "",
+	"license": "MIT"
+}
