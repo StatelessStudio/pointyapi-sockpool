@@ -1,22 +1,22 @@
 {
-	"rulesDirectory": ["node_modules/tslint-eslint-rules/dist/rules"],
+	"rulesDirectory": [ "node_modules/tslint-eslint-rules/dist/rules" ],
 	"rules": {
 		"arrow-return-shorthand": true,
 		"callable-types": true,
 		"class-name": true,
-		"comment-format": [true, "check-space"],
+		"comment-format": [ true, "check-space" ],
 		"curly": true,
 		"deprecation": {
 			"severity": "warn"
 		},
 		"eofline": true,
 		"forin": false,
-		"import-blacklist": [true, "rxjs/Rx"],
+		"import-blacklist": [ true, "rxjs/Rx" ],
 		"import-spacing": true,
-		"indent": [true, "tabs", 2],
+		"indent": [ true, "tabs", 2 ],
 		"interface-over-type-literal": true,
 		"label-position": true,
-		"max-line-length": [true, 80],
+		"max-line-length": [ true, 80 ],
 		"member-access": false,
 		"member-ordering": [
 			true,
@@ -31,14 +31,14 @@
 		],
 		"no-arg": true,
 		"no-bitwise": true,
-		"no-console": [true, "debug", "info", "time", "timeEnd", "trace"],
+		"no-console": [ true, "debug", "info", "time", "timeEnd", "trace" ],
 		"no-construct": true,
 		"no-debugger": true,
 		"no-duplicate-super": true,
 		"no-empty": false,
 		"no-empty-interface": true,
 		"no-eval": true,
-		"no-inferrable-types": [true, "ignore-params"],
+		"no-inferrable-types": [ true, "ignore-params" ],
 		"no-misused-new": true,
 		"no-non-null-assertion": true,
 		"no-redundant-jsdoc": true,
@@ -52,12 +52,12 @@
 		"no-use-before-declare": true,
 		"no-var-keyword": true,
 		"object-literal-sort-keys": false,
-		"one-line": [false],
+		"one-line": [ false ],
 		"prefer-const": true,
-		"quotemark": [true, "single"],
+		"quotemark": [ true, "single" ],
 		"radix": true,
-		"semicolon": [true, "always", "strict-bound-class-methods"],
-		"triple-equals": [true, "allow-null-check"],
+		"semicolon": [ true, "always", "strict-bound-class-methods" ],
+		"triple-equals": [ true, "allow-null-check" ],
 		"typedef-whitespace": [
 			true,
 			{
@@ -78,6 +78,6 @@
 			"check-separator",
 			"check-type"
 		],
-		"brace-style": ["stroustrup"]
+		"brace-style": [ "stroustrup" ]
 	}
 }
