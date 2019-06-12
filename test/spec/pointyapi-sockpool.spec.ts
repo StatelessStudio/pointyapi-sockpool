@@ -1,5 +1,5 @@
 import 'jasmine';
-import { sockpool, PointySockpool } from '../../src/pointyapi-sockpool';
+import { sockpool, PointySockpool } from '../../src';
 import { pointy, jwtBearer } from 'pointyapi';
 import { addResource } from 'pointyapi/utils';
 import { BaseUser, ExampleUser } from 'pointyapi/models';
