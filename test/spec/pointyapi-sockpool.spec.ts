@@ -33,10 +33,14 @@ describe('PointySockpool', () => {
 					sockpool.pushRaw(1, 'pushtest-complete');
 				});
 				client.on('basemodel', () => {
-					const user = new ExampleUser();
-					user.id = 2;
-					user.username = 'test';
-					sockpool.push(1, user);
+					const user1 = new ExampleUser();
+					user1.id = 1;
+					user1.username = 'test1';
+
+					const user2 = new ExampleUser();
+					user2.id = 2;
+					user2.username = 'test2';
+					sockpool.push(user1, user2);
 				});
 			};
 

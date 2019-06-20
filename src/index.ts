@@ -1,5 +1,6 @@
 import { PointyApi, pointy, jwtBearer } from 'pointyapi';
 import { BaseModel, BaseUser } from 'pointyapi/models';
+import { readFilter } from 'pointyapi/bodyguard';
 
 // Websocket
 import * as socketio from 'socket.io';
@@ -116,8 +117,9 @@ export class PointySockpool {
 	/**
 	 * Push an object to the user
 	 */
-	public push(userId: any, obj: BaseModel) {
-		this.pushRaw(userId, obj.constructor.name, obj);
+	public push(user: BaseUser, obj: BaseModel) {
+		obj = readFilter(obj, user, obj.constructor, user.constructor);
+		this.pushRaw(user.id, obj.constructor.name, obj);
 	}
 
 	/**
