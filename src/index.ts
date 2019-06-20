@@ -45,7 +45,7 @@ export class PointySockpool {
 		this.pointyapi.listen = (app, port, log) => {
 			// Startup Websocket Pool
 			this.server.listen(port);
-			console.log(`[SERVER] Listening on port ${port}`);
+			console.log(`[SockPool] Listening on port ${port}`);
 		};
 	}
 
