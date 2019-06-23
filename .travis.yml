@@ -5,7 +5,7 @@ before_script:
   - psql -c 'create database testdb;' -U postgres
   - cp local.config.travis.json local.config.json
 install:
-  - npm install --ignore-scripts
+  - npm install
 services:
   - postgresql 
 after_success:
