@@ -62,3 +62,6 @@ typings/
 
 # Build directory
 lib/
+
+# Config
+local.config.json
