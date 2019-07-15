@@ -1,6 +1,6 @@
 {
 	"name": "pointyapi-sockpool",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Websocket pool for PointyAPI",
 	"main": "index.js",
 	"scripts": {

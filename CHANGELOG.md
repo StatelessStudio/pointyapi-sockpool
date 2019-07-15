@@ -1,3 +1,9 @@
 # pointyapi-sockpool
 
+## [0.0.2] Jul-15-2019
+
+### Fixes
+- Updated dependency with security update `lodash`
+- Updated dependencies
+
 ## [0.0.1] Jun-22-2019 - Initial Release
