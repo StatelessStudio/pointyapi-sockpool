@@ -19,11 +19,11 @@ describe('PointySockpool', () => {
 
 			// User
 			await addResource(ExampleUser, {
-				fname: 'Drew',
-				lname: 'Immerman',
-				username: 'drewadmin',
+				fname: 'Stateless',
+				lname: 'Studio',
+				username: 'StatelessStudio',
 				password: 'password123',
-				email: 'drewadmin@test.com',
+				email: 'drew@stateless.studio',
 				role: UserRole.Admin
 			});
 

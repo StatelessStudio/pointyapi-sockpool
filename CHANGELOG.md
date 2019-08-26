@@ -3,6 +3,7 @@
 ## [0.0.3] Aug-26-2019
 
 ### Fixes
+- Replaced testing user info
 - npm update
 
 ## [0.0.2] Jul-15-2019
