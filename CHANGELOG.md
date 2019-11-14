@@ -1,5 +1,11 @@
 # pointyapi-sockpool
 
+## [0.0.4] Nov-14-2019
+
+### Fixes
+- Upgrade to node 12
+- npm update
+
 ## [0.0.3] Aug-26-2019
 
 ### Fixes
