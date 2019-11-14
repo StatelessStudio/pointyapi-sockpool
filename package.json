@@ -18,7 +18,7 @@
 		"test": "test"
 	},
 	"dependencies": {
-		"@types/node": "^10.17.5",
+		"@types/node": "^12.12.7",
 		"@types/socket.io-client": "^1.4.32",
 		"app-root-path": "^3.0.0",
 		"express": "^4.17.1",
