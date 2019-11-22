@@ -1,5 +1,9 @@
 # pointyapi-sockpool
 
+## [0.0.5] Nov-22-2019
+
+### Fixes
+
 ## [0.0.4] Nov-14-2019
 
 ### Fixes
