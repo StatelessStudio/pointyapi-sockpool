@@ -1,5 +1,10 @@
 # pointyapi-sockpool
 
+## [0.0.6] Oct-21-2020 - Postinstall Fix
+
+### Fixes
+- Changed npm postinstall script to prepare
+
 ## [0.0.5] Nov-22-2019
 
 ### Fixes
